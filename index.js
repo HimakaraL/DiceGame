@@ -51,3 +51,20 @@ if(randomNumber1 > randomNumber2){
 } else {
     cont.textContent = "Something went wrong";
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    var refresh = document.getElementById("btn");
+
+    refresh.addEventListener("click", function() {
+        var audio = new Audio("./sounds/impact.mp3");
+ 
+       
+        audio.addEventListener("ended", function() {
+            location.reload(true);
+
+        });
+        audio.play();
+
+    });
+});

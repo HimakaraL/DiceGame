@@ -11,7 +11,8 @@
 }
 
 body {
-  background-color: #0d8aea;
+  background-color: rgb(236,232,58);
+  background: radial-gradient(circle, rgba(236,232,58,1) 0%, rgba(249,189,42,1) 100%);
 }
 
 h1 {
@@ -19,12 +20,12 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
-  color: #ffffff;
+  color: #f22e2b;
 }
 
 p {
   font-size: 2rem;
-  color: #ffffff;
+  color: #000000;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -34,8 +35,37 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #000000;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
 
+}
+
+#btn {
+  height: 50px;
+  width: 90px;
+  border-radius: 45%;
+  background-color: #f22e2b;
+  font-weight: bolder;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+#btn1{
+  height: 50px;
+  width: 90px;
+  border-radius: 45%;
+  background-color: #f22e2b;
+  font-weight: bolder;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+h4{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  color: #f22e2b;
 }
